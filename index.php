@@ -6,6 +6,6 @@
  * Time: 8:45 PM
  */
 
-$greeting = "Hello World";
+$greeting ='Hello Ya';
 
 echo $greeting;
