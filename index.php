@@ -12,7 +12,7 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<!-- Cystomer CSS Kcampbell16@cnm.edu--> == $0
+		<!-- Cystomer CSS Kcampbell16@cnm.edu-->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,6 +21,9 @@
 		<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- load jquery -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
@@ -31,13 +34,26 @@
 
 	</head>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					
-				</div>
-			</div>
 
-		</div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+						<a class="navbar-brand" href="#">
+							<img alt="Brand" src="img/resizelogoholder1.png">
+				</div>
+
+					<form class="navbar-form navbar-left">
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Top Navigation</a></li>
+
+
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
 	</body>
 </hmtl>
